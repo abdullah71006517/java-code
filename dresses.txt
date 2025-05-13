@@ -1,0 +1,28 @@
+
+abdulah,Sweater,Small,0xff00ffff,3222.9299363057326,fsdfhsdfsf,Male,12,2022-05-11,dfdfs/nshart,Sweater,Medium,0x000080ff,2248.4076433121018,all ok ,Male,6,2022-05-11,6787,file:/H:/java%20code/Dress%20collection/src/main/resources/com/example/dresscollection/clothing-hd-png-dress-shirt-png-image-798.png
+shart,Sweater,Medium,0x0000ffff,1961.7834394904457,10,Female,3,2025-05-06,444,N/A
+fdfd,Hoodie,N/A,0xffffffff,1789.8089171974523,fdf,Male,13,2024-05-10,fff,N/A
+new,Sweater,Small,0x0000ffff,2076.4331210191085,everthig is ok ,Male,12,2023-05-10,hwllo,N/A
+shart,Sweater,Medium,0x0000ffff,1073.248407643312,ok,Female,2,2025-05-07,ffEnabled,N/A
+4654,Hoodie,Small,0x0000ffff,2162.4203821656056,hvhvg,Female,14,2024-05-07,jgjgEnabled,N/A
+44,Jacket,N/A,0xffffffff,500.0,,Male,1,N/A,Enabled,N/A
+hi,Hoodie,Small,0x008080ff,1990.4458598726117,everthig is ok ,Female,9,2025-05-08,49,Enabled,N/A
+hello,Hoodie,Small,0x0000ffff,1847.1337579617837,hwllo,Male,5,2025-05-08,hi,Enabled,N/A
+fdfd,Sweater,Small,0xff0000ff,1818.4713375796177,fdfdf,Male,2,2025-05-09,dfdfd,Enabled,N/A
+f,Hoodie,Small,0xffffffff,2707.0063694267515,f,Male,3,2024-05-16,ff,Enabled,N/A
+f,Hoodie,Small,0xffffffff,2707.0063694267515,f,Male,3,2024-05-16,ff,Enabled,N/A
+abdulah,Sweater,Small,0x0000ffff,2219.7452229299365,ok,Male,4,2024-05-09,fff,Enabled,N/A
+as,Sweater,Medium,0xffffffff,500.0,everthing is ok ,Female,21,2024-05-08,ABCD,Enabled,file:/H:/java%20code/Dress%20collection/src/main/resources/com/example/dresscollection/clothing-hd-png-dress-shirt-png-image-798.png
+sari,Hoodie,Small,0xffffffff,1761.1464899816333,everthy thhin is ok ,Male,20,2024-05-07,,Enabled,file:/H:/java%20code/Dress%20collection/src/main/resources/com/example/dresscollection/clothing-hd-png-dress-shirt-png-image-798.png
+abc,Sweater,Medium,0x000000ff,1073.248407643312,ok,Male,10,2023-05-17,34efdf,Enabled,file:/C:/Users/user/Pictures/abdllah.jpg
+aaa,Sweater,Small,0x000080ff,2105.0955414012737,fdfds,Male,6,2024-05-16,fdfsdsf,Enabled,images\abdllah.jpg
+aaaa,Sweater,Small,0x000080ff,2191.082802547771,fdfsdfsdf,Female,6,2025-05-01,aaaaaaa,Enabled,images\abdllah.jpg
+bbbb,Jacket,Small,0x000080ff,2277.0700636942674,dfsdfsd,Male,6,2024-04-10,bbbbb,Enabled,images\clothing-hd-png-dress-shirt-png-image-798.png
+test,Hoodie,Small,0x00000000,1531.8471337579617,ffsfsfs,Female,11,2023-05-17,fff,Enabled,images\abdllah.jpg
+vbfb,Sweater,Small,0xffffffff,2162.4203821656056,fsdfsf,Male,7,2023-05-11,fsdfsd,Not Enabled,images\abdllah.jpg
+t shart,Jacket,N/A,0xffffffff,1302.5477707006369,everthing ok ,Female,17,2024-05-08,tttt,Enabled,images\OSK.jpg
+t shart,Jacket,N/A,0xffffffff,1302.5477707006369,everthing ok ,Female,17,2024-05-08,tttt,Enabled,images\OSK.jpg
+test1,Sweater,Small,0x0000ffff,2076.4331210191085,ok,Female,8,2023-05-11,abc,Enabled,images\OSK.jpg
+new sweater,Sweater,Medium,0x0000ffff,2363.057256504229,everthying is ok ,Female,10,2025-05-11,sbvf,Enabled,images\OIP (18).jpg
+new sweater,Sweater,Medium,0x0000ffff,2363.057256504229,everthying is ok ,Female,10,2025-05-11,sbvf,Enabled,images\OIP (18).jpg
+new sweater,Sweater,Medium,0x0000ffff,2363.057256504229,everthying is ok ,Female,10,2025-05-11,sbvf,Enabled,images\OIP (18).jpg

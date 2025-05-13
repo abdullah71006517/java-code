@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dresscollection.NextSceneController">
+   <children>
+      <Button layoutX="718.0" layoutY="36.0" mnemonicParsing="false" onAction="#backScene" prefHeight="26.0" prefWidth="62.0" text="Back" />
+      <Label layoutX="350.0" layoutY="36.0" prefHeight="27.0" prefWidth="151.0" text="Dress collection" textFill="#2715cf">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="serachfiled" layoutX="42.0" layoutY="73.0" prefHeight="15.0" prefWidth="802.0" promptText="Type and enter to search.........." />
+      <Label layoutX="116.0" layoutY="322.0" prefHeight="26.0" prefWidth="620.0" text="Slelected Dress Information / Last Entried Proudeuct Information (default)">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableview" layoutX="42.0" layoutY="99.0" prefHeight="200.0" prefWidth="782.0">
+        <columns>
+          <TableColumn fx:id="namecolumn" prefWidth="120.79998397827148" text="Name" />
+          <TableColumn fx:id="typecolumn" prefWidth="91.20004272460938" text="Type" />
+            <TableColumn fx:id="colorcolumn" prefWidth="94.40003967285156" text="Color" />
+            <TableColumn fx:id="pricecolumn" prefWidth="123.199951171875" text="Price" />
+            <TableColumn fx:id="purchasecolumn" prefWidth="125.5999755859375" text="Last Purchase" />
+            <TableColumn fx:id="quantitycolumn" prefWidth="117.60003662109375" text="Quantity" />
+            <TableColumn fx:id="boostedcolum" prefWidth="109.59991455078125" text="Boosted" />
+        </columns>
+      </TableView>
+      <Separator layoutX="218.0" layoutY="308.0" prefHeight="14.0" prefWidth="414.0" />
+      <Label layoutX="42.0" layoutY="380.0" prefHeight="18.0" prefWidth="84.0" text="Dress Name: " />
+      <Label layoutX="42.0" layoutY="398.0" prefHeight="18.0" prefWidth="84.0" text="Dress Type: " />
+      <Label layoutX="42.0" layoutY="425.0" prefHeight="18.0" prefWidth="84.0" text="Avaible Size: " />
+      <Label layoutX="42.0" layoutY="444.0" prefHeight="18.0" prefWidth="84.0" text="Dress color: " />
+      <Label layoutX="42.0" layoutY="471.0" prefHeight="18.0" prefWidth="84.0" text="Price   : ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="496.0" prefHeight="18.0" prefWidth="84.0" text="Dress details: " />
+      <Label layoutX="32.0" layoutY="526.0" prefHeight="18.0" prefWidth="128.0" text="Last Purchase date :" />
+      <Label layoutX="32.0" layoutY="553.0" prefHeight="18.0" prefWidth="84.0" text="Avaible Quality" />
+      <Separator layoutX="422.0" layoutY="362.0" orientation="VERTICAL" prefHeight="200.0" />
+      <Label layoutX="428.0" layoutY="362.0" prefHeight="18.0" prefWidth="94.0" text="Discount code: " />
+      <Label layoutX="428.0" layoutY="389.0" prefHeight="18.0" prefWidth="128.0" text="Targated Customer :" />
+      <Label layoutX="428.0" layoutY="415.0" prefHeight="18.0" prefWidth="128.0" text="Facebook boosting :" />
+      <Button layoutX="673.0" layoutY="359.0" mnemonicParsing="false" onAction="#showDiscount" text="Show " />
+      <ImageView fx:id="imageload" fitHeight="83.0" fitWidth="73.0" layoutX="639.0" layoutY="436.0" smooth="false" />
+      <Button layoutX="621.0" layoutY="540.0" mnemonicParsing="false" onAction="#Editaction" prefHeight="26.0" prefWidth="62.0" style="-fx-background-color: blue;" text="Edit">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9768927693367004" green="0.9789473414421082" blue="0.9173099398612976" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="710.0" layoutY="540.0" mnemonicParsing="false" onAction="#Editaction" style="-fx-background-color: red;" text="Delete" />
+      <Label text="Label" />
+      <Label fx:id="Name" layoutX="121.0" layoutY="380.0" prefHeight="18.0" prefWidth="194.0" text="------------" />
+      <Label fx:id="Type" layoutX="121.0" layoutY="398.0" prefHeight="18.0" prefWidth="194.0" text="------------" />
+      <Label fx:id="Size" layoutX="126.0" layoutY="424.0" prefHeight="18.0" prefWidth="194.0" text="------------" />
+      <Label fx:id="color" layoutX="116.0" layoutY="444.0" prefHeight="18.0" prefWidth="194.0" text="------------" />
+      <Label fx:id="Price" layoutX="96.0" layoutY="471.0" prefHeight="18.0" prefWidth="194.0" text="------------" />
+      <Label fx:id="details" layoutX="116.0" layoutY="496.0" prefHeight="18.0" prefWidth="194.0" text="------------" />
+      <Label fx:id="date" layoutX="142.0" layoutY="526.0" prefHeight="18.0" prefWidth="194.0" text="------------" />
+      <Label fx:id="Quality" layoutX="126.0" layoutY="553.0" prefHeight="18.0" prefWidth="194.0" text="------------" />
+      <Label fx:id="discount" layoutX="515.0" layoutY="362.0" prefHeight="18.0" prefWidth="151.0" text="******" />
+      <Label fx:id="Customer" layoutX="558.0" layoutY="389.0" prefHeight="18.0" prefWidth="151.0" text="------------" />
+      <Label fx:id="bossting" layoutX="545.0" layoutY="415.0" prefHeight="18.0" prefWidth="151.0" text="------------" />
+   </children>
+</AnchorPane>
